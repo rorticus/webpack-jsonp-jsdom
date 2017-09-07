@@ -1,0 +1,18 @@
+{
+  "name": "webpack-jsonp-jsdom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack && node jsdom.js",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chance": "^1.0.11",
+    "jsdom": "^11.2.0",
+    "jsdom-global": "^3.0.2",
+    "webpack": "^3.5.6"
+  }
+}
